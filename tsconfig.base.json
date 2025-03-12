@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@hello-nx/my-ui-lib": ["libs/my-ui-lib/src/index.ts"],
-      "@hello-nx/table": ["libs/table/src/index.ts"]
+      "@hello-nx/table": ["libs/table/src/index.ts"],
+      "@types": ["types/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

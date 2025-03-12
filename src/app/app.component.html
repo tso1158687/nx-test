@@ -1,5 +1,4 @@
 <!-- <app-nx-welcome></app-nx-welcome> -->
- <lib-my-ui-lib
- ></lib-my-ui-lib>
- <lib-table></lib-table>
+<lib-my-ui-lib (click)="add()"></lib-my-ui-lib>
+<lib-table [rowData]="list$ | async"></lib-table>
 <router-outlet></router-outlet>
