@@ -1,1 +1,7 @@
-<p>addCar works!</p>
+<div class="flex flex-column" [formGroup]="carFrom">
+    <div class="flex">maker <input type="text" formControlName="maker"></div>
+    <div class="flex">model <input type="text" formControlName="model"></div>
+    <div class="flex">price <input type="number" formControlName="price"></div>
+    <div class="flex">electric <input type="checkbox" name="" id="" formControlName="electric"></div>
+{{carFrom.valid}}
+</div>
