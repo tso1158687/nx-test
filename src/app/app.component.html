@@ -1,4 +1,9 @@
 <!-- <app-nx-welcome></app-nx-welcome> -->
-<lib-my-ui-lib (click)="add()"></lib-my-ui-lib>
-<lib-table [rowData]="list$ | async"></lib-table>
+<!-- <lib-my-ui-lib (click)="add()"></lib-my-ui-lib> -->
+<!-- <lib-table [rowData]="list$ | async"></lib-table> -->
+ <ul>
+    <li routerLink="/">首頁</li>
+    <li routerLink="/add">新增</li>
+    <li routerLink="/view">列表</li>
+ </ul>
 <router-outlet></router-outlet>
